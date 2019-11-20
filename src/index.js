@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './style.css';
+import App from "./containers/App";
+import "./styles/app.scss";
 
-const Index = () => {
-  return <div className="helloworld">Hello React,Webpack4,Babel7!</div>;
-};
+ReactDOM.render(<App name={"New visitor"} />, document.getElementById("root"));
 
-ReactDOM.render(<Index />, document.querySelector("#root"));
+module.hot.accept(); // accept hot reloadinga

@@ -1,0 +1,18 @@
+$theme-font: verdana, sans-serif;
+
+body {
+    font: $theme-font;
+    background-color: $themeColorLight;
+    h1,
+    h2 {
+        color: $themeColorDark;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
